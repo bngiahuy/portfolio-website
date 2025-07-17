@@ -19,30 +19,13 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        Former <span className="font-medium">Computer Science and Engineering</span> student at Bach Khoa University (HCMC University of Technology), one of Vietnam’s top technical institutions. Currently working as a <span className="font-medium">Software Engineer</span> at HPT Vietnam Corp, where I contribute to enterprise-level software solutions. My core expertise lies in <span className="font-medium">Python, Node.js, C/C++</span>, with hands-on experience in RESTful APIs, database design, and server-side logic.
       </p>
-
+      <p className="mb-3">
+        I approach systems development with a deep focus on <span className="font-medium">code quality, scalability, and performance</span>. With experience in both academic and industry settings, I've consistently demonstrated strong adaptability and self-learning abilities under production constraints. Currently seeking <span className="font-medium">remote software engineering opportunities</span> where I can apply backend expertise and expand into AI-driven architectures.
+      </p>
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        Fluent in <span className="font-medium">English and Vietnamese</span>. Strong interest in <span className="font-medium">distributed systems, LLM infrastructure,</span> and <span className="font-medium">developer tooling</span>.
       </p>
     </motion.section>
   );

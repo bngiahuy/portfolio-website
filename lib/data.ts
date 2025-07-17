@@ -1,10 +1,13 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { TbDatabasePlus } from "react-icons/tb";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import chatbotImg from "@/public/chatbot_project.png";
+import jspassGenImg from "@/public/javascript-password-generator.png";
+import jwtSecretImg from "@/public/jwt-secret-generator.png";
+import weatherAppImg from "@/public/weather-app.png";
+import todoAppImg from "@/public/todo-app.png";
+import passwordCliImg from "@/public/password-cli.png";
 
 export const links = [
   {
@@ -16,16 +19,16 @@ export const links = [
     hash: "#about",
   },
   {
-    name: "Projects",
-    hash: "#projects",
+    name: "Experience",
+    hash: "#experience",
   },
   {
     name: "Skills",
     hash: "#skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Projects",
+    hash: "#projects",
   },
   {
     name: "Contact",
@@ -35,73 +38,98 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Engineer",
+    location: "HPT Vietnam Corporation - Full-time",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Specializing in web development, AI, and Robotics Process Automation (RPA).",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Aug 2024 - Present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Back End Developer",
+    location: "ABC SOLUTIONS - Internship",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Fullstack developer building an IoT learning platform for college students using ReactJS, Node.js, and MQTT.",
+    icon: React.createElement(TbDatabasePlus),
+    date: "Oct 2023 - Dec 2023",
   },
+  {
+    title: "Bachelor of Computer Science",
+    location: "University of Technology, VNU-HCM - Full-time",
+    description:
+      "Graduated with a GPA of 3.0/4.0, specializing in software engineering.",
+    icon: React.createElement(LuGraduationCap),
+    date: "Sep 2020 - May 2025",
+  }
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Chatbot HPT",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "An AI-powered chatbot application for internal documents, includes implementations for NLP, RAG, vector databases, and more.",
+    tags: ["Next.js", "MongoDB", "Python", "LangChain", "Elasticsearch", "LLMs", "Docker"],
+    imageUrl: chatbotImg,
+    projectUrl: "https://github.com/bngiahuy/chatbot-hpt"
   },
   {
-    title: "rmtDev",
+    title: "Password Manager CLI",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A command-line interface (CLI) tool for securely managing passwords, featuring encryption and decryption functionalities.",
+    tags: ["C/C++", "Cryptography", "Encryption", "CMake"],
+    imageUrl: passwordCliImg,
+    projectUrl: "https://github.com/bngiahuy/PasswordManagerCPP"
   },
   {
-    title: "Word Analytics",
+    title: "Javascript Password Generator",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A public web app for generating strong passwords with various options for customization.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: jspassGenImg,
+    projectUrl: "https://bngiahuy.github.io/javascript-password-generator/"
   },
+  {
+    title: "JWT Secret Generator",
+    description:
+      "A web app for generating secure JWT secrets, ensuring robust authentication mechanisms.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    imageUrl: jwtSecretImg,
+    projectUrl: "https://bngiahuy.github.io/jwt-secret-generator/"
+  },
+  {
+    title: "Weather App",
+    description:
+      "A web application that provides real-time weather information using a public API.",
+    tags: ["React", "TypeScript", "API"],
+    imageUrl: weatherAppImg,
+    projectUrl: "https://weather-app-e5b.pages.dev/"
+  },
+  {
+    title: "Modern Todo List",
+    description:
+      "A modern todo list application built with React and TypeScript, featuring a clean UI and local storage support.",
+    tags: ["React", "TypeScript", "Local Storage"],
+    imageUrl: todoAppImg,
+    projectUrl: "https://bngiahuy.github.io/modern-todo-list/"
+  }
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "MySQL",
+  "Redis",
+  "TypeScript",
+  "Python3",
+  "C/C++",
+  "Kotlin",
+  "Spring Boot",
+  "Docker",
+  "Kafka",
+  "NLP",
+  "RPA",
+  "Scrum",
 ] as const;
