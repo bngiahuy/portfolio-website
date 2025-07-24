@@ -8,6 +8,7 @@ import jwtSecretImg from "@/public/jwt-secret-generator.png";
 import weatherAppImg from "@/public/weather-app.png";
 import todoAppImg from "@/public/todo-app.png";
 import passwordCliImg from "@/public/password-cli.png";
+import githubRepoImg from "@/public/github-repo.png";
 
 export const links = [
   {
@@ -65,23 +66,31 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Chatbot HPT",
+    title: "🤖 Chatbot JARVIS for HPT",
     description:
-      "An AI-powered chatbot application for internal documents, includes implementations for RAG, vector databases, and more.",
-    tags: ["Next.js", "MongoDB", "Python", "LangChain", "Elasticsearch", "LLMs", "RAG"],
+      "An AI-powered chatbot application for internal documents, includes implementations for RAG, vector databases, and more. His name is JARVIS.",
+    tags: ["Next.js", "MongoDB", "Python", "LangChain", "Elasticsearch", "LLM", "RAG", "Reranking"],
     imageUrl: chatbotImg,
     projectUrl: "https://github.com/bngiahuy/chatbot-hpt"
   },
   {
-    title: "HPT SmartTrak",
+    title: "🎯 HPT SmartTrak",
     description:
-      "A web application for tracking and managing employee attendance, featuring face recognition and real-time data processing.",
+      "A web application for tracking and managing employee attendance, featuring face recognition and real-time data processing. This project is currently in development.",
     tags: ["Next.js", "MySQL", "Spring Boot", "Docker", "Face Recognition"],
     imageUrl: chatbotImg,
     projectUrl: "https://github.com/bngiahuy/chatbot-hpt"
   },
   {
-    title: "Password Manager CLI",
+    title: "📔 AI-Powered Translation Extension",
+    description:
+      "A Chrome extension that provides AI-powered translation services, enhancing user experience with real-time translations.",
+    tags: ["React", "TypeScript", "Chrome Extension", "AI", "Gemini"],
+    imageUrl: todoAppImg,
+    projectUrl: ""
+  },
+  {
+    title: "🔑 Password Manager CLI",
     description:
       "A C/C++ command-line interface (CLI) tool for securely managing passwords, featuring encryption and decryption functionalities.",
     tags: ["C/C++", "Cryptography", "Encryption", "CMake"],
@@ -89,7 +98,7 @@ export const projectsData = [
     projectUrl: "https://github.com/bngiahuy/PasswordManagerCPP"
   },
   {
-    title: "Javascript Password Generator",
+    title: "🔑 Javascript Password Generator",
     description:
       "A public web app for generating strong passwords with various options for customization.",
     tags: ["HTML", "CSS", "JavaScript"],
@@ -97,28 +106,28 @@ export const projectsData = [
     projectUrl: "https://bngiahuy.github.io/javascript-password-generator/"
   },
   {
-    title: "JWT Secret Generator",
+    title: "🔑 JWT Secret Generator",
     description:
       "A web app for generating secure JWT secrets, ensuring robust authentication mechanisms.",
-    tags: ["HTML", "CSS", "JavaScript"],
+    tags: ["HTML", "CSS", "JavaScript", "JWT"],
     imageUrl: jwtSecretImg,
     projectUrl: "https://bngiahuy.github.io/jwt-secret-generator/"
   },
   {
-    title: "Weather App",
+    title: "🌤️ Weather App",
     description:
       "A web application that provides real-time weather information using a public API.",
-    tags: ["React", "TypeScript", "API"],
+    tags: ["React", "TypeScript"],
     imageUrl: weatherAppImg,
     projectUrl: "https://weather-app-e5b.pages.dev/"
   },
   {
-    title: "Modern Todo List",
+    title: "🎓 And more...",
     description:
-      "A modern todo list application built with React and TypeScript, featuring a clean UI and local storage support.",
-    tags: ["React", "TypeScript", "Local Storage"],
-    imageUrl: todoAppImg,
-    projectUrl: "https://bngiahuy.github.io/modern-todo-list/"
+      "A collection of various small projects and experiments showcasing different technologies and concepts.",
+    tags: ["Github", "Open Source", "Side Projects"],
+    imageUrl: githubRepoImg,
+    projectUrl: "https://github.com/bngiahuy?tab=repositories"
   }
 ] as const;
 
