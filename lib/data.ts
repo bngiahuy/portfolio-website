@@ -41,7 +41,7 @@ export const experiencesData = [
     title: "Software Engineer",
     location: "HPT Vietnam Corporation - Full-time",
     description:
-      "Specializing in web development, AI, and Robotics Process Automation (RPA).",
+      "Specializing in software development, AI, RPA, and DevOps.",
     icon: React.createElement(CgWorkAlt),
     date: "Aug 2024 - Present",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     title: "Bachelor of Computer Science",
     location: "University of Technology, VNU-HCM - Full-time",
     description:
-      "Graduated with a GPA of 3.0/4.0, specializing in software engineering.",
+      "Graduated with a GPA of 3.0/4.0, specializing in Computer Science.",
     icon: React.createElement(LuGraduationCap),
     date: "Sep 2020 - May 2025",
   }
@@ -67,15 +67,23 @@ export const projectsData = [
   {
     title: "Chatbot HPT",
     description:
-      "An AI-powered chatbot application for internal documents, includes implementations for NLP, RAG, vector databases, and more.",
-    tags: ["Next.js", "MongoDB", "Python", "LangChain", "Elasticsearch", "LLMs", "Docker"],
+      "An AI-powered chatbot application for internal documents, includes implementations for RAG, vector databases, and more.",
+    tags: ["Next.js", "MongoDB", "Python", "LangChain", "Elasticsearch", "LLMs", "RAG"],
+    imageUrl: chatbotImg,
+    projectUrl: "https://github.com/bngiahuy/chatbot-hpt"
+  },
+  {
+    title: "HPT SmartTrak",
+    description:
+      "A web application for tracking and managing employee attendance, featuring face recognition and real-time data processing.",
+    tags: ["Next.js", "MySQL", "Spring Boot", "Docker", "Face Recognition"],
     imageUrl: chatbotImg,
     projectUrl: "https://github.com/bngiahuy/chatbot-hpt"
   },
   {
     title: "Password Manager CLI",
     description:
-      "A command-line interface (CLI) tool for securely managing passwords, featuring encryption and decryption functionalities.",
+      "A C/C++ command-line interface (CLI) tool for securely managing passwords, featuring encryption and decryption functionalities.",
     tags: ["C/C++", "Cryptography", "Encryption", "CMake"],
     imageUrl: passwordCliImg,
     projectUrl: "https://github.com/bngiahuy/PasswordManagerCPP"
@@ -115,7 +123,6 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "React",
   "Next.js",
   "Node.js",
   "MongoDB",
@@ -129,7 +136,7 @@ export const skillsData = [
   "Spring Boot",
   "Docker",
   "Kafka",
-  "NLP",
+  "AI/ML",
   "RPA",
   "Scrum",
 ] as const;
